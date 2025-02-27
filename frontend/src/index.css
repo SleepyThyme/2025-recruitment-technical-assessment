@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+
+@layer components {
+  .navIcon {
+    @apply border-[0.2vh] border-orange-400 rounded-sm mr-[1.2vh] p-[1.2vh];
+  }
+  .displayBox {
+    @apply m-2.5 h-[57vh] w-[23vw] overflow-hidden rounded-lg;
+  }
+}

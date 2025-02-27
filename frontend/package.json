@@ -1,0 +1,29 @@
+{
+  "name": "2025-recruitment-technical-assessment",
+  "version": "1.0.0",
+  "description": "Hiya! Thank you for applying to DevSoc project teams for 2025. Our projects are proudly maintained by student society volunteers like yourself who for many years have ideated, built and iterated the websites within our portfolios.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.2.0"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.0.9",
+    "react": "^19.0.0",
+    "react-router-dom": "^7.2.0",
+    "tailwindcss": "^4.0.9",
+    "typescript": "^5.7.3"
+  },
+  "type": "module"
+}
