@@ -12,7 +12,7 @@ const DisplayBox: React.FC<DisplayBox> = ({building, roomsAvailable, imgSrc}) =>
     <>
       <div className="m-[1.5vh] overflow-hidden rounded-lg h-[56vh]">
         <img src={imgSrc} className="h-full w-full object-cover"></img>
-        <div className="flex relative h-[5.5vh] w-[11vw] justify-self-end bottom-[55vh] bg-white mx-[1.5vh] p-[0.8vh] rounded-2xl place-items-center">
+        <div className="flex flex-row relative h-[5.5vh] justify-self-end bottom-[55vh] bg-white mx-[1.5vh] p-[0.8vh] rounded-2xl place-items-center">
           <img src="./src/assets/greenCircle.svg" className="h-full"></img>
           <p className="m-[1vh] text-[1.8vh]">{roomsAvailable} rooms available</p>
         </div>
