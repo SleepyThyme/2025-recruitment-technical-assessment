@@ -5,7 +5,7 @@ const GridSection = () => {
 
   return (
     <>
-      <div className="grid 3xl:grid-cols-5 lg:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 px-[2vh]">
+      <div className="grid xl:grid-cols-5 lg:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 px-[1vh]">
         <DisplayBox building="AGSM" roomsAvailable="9" imgSrc="./src/assets/agsm.webp"></DisplayBox>
         <DisplayBox building="Ainsworth Building" roomsAvailable="16" imgSrc="./src/assets/ainsworth.webp"></DisplayBox>
         <DisplayBox building="Anita B Lawrence Center" roomsAvailable="44" imgSrc="./src/assets/anitab.webp"></DisplayBox>
