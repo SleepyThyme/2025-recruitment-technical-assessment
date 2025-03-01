@@ -4,7 +4,7 @@ const SearchArea = () => {
 
   return (
     <>
-      <div className="flex flex-row items-center justify-between h-[6.5vh] mt-[2.5vh] mb-[0.75vh] mx-[1.5vw] text-orange-600 text-[2.5vh]">
+      <div className="flex flex-row items-center justify-between h-[6.5vh] mt-[12vh] mb-[0.75vh] mx-[1.5vw] text-orange-600 text-[2.5vh]">
         <div className="flex flex-row place-items-center h-full w-[10vw] border-[0.3vh] border-orange-400 rounded-xl p-[1vh]">
           <img src="./src/assets/filterIcon.svg" className="h-full m-[2vh]"/>
           <p>Filters</p>

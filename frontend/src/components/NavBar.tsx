@@ -11,7 +11,7 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className="absolute top-0 z-1 bg-white sticky h-[9.5vh] border-b-[0.1vh] border-gray-300 p-[1vh] flex flex-row justify-between">
+      <nav className="fixed w-full top-0 z-1 bg-white h-[9.5vh] border-b-[0.1vh] border-gray-300 p-[1vh] flex flex-row justify-between">
         <div className="flex flex-row items-center text-orange-500 text-[5vh]">
           <img src={doorState} className="h-full m-[1.5vh]" onClick={doorClick}/>
           <p>Freerooms</p>
